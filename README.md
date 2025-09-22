@@ -37,8 +37,8 @@ Este projeto apresenta conceitos fundamentais de **Computação em Nuvem com AWS
 
 ## 📊 Fluxo: Compra de Ingresso de Cinema com Computação em Nuvem AWS
 
-![Fluxograma da compra de ingresso]([<img width="654" height="482" alt="aws" src="https://github.com/user-attachments/assets/d2a3d6b6-6d31-497b-85ba-0615e3bc6cfd" />](https://github.com/mari19-coder/Projeto01CodeGirls/blob/main/aws1.drawio.png?raw=true)
-).  
+(https://github.com/mari19-coder/Projeto01CodeGirls/blob/main/aws1.drawio.png)
+ 
 
 ---
 
