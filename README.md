@@ -37,7 +37,7 @@ Este projeto apresenta conceitos fundamentais de **Computação em Nuvem com AWS
 
 ## 📊 Fluxo: Delivery de Açaí com Computação em Nuvem AWS
 
-  ![Delivery de Açaí](https://github.com/davidkuin/Cloud-Computing-EC2/blob/3dbc71a6de102e3e5869f1e30d9a31c3d9def247/aws1.drawio.png).
+  ![Delivery de Açaí](https://github.com/mari19-coder/Projeto01CodeGirls/blob/main/aws3.drawio.png).
 
 ---
 
