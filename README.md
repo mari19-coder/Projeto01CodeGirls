@@ -1,6 +1,6 @@
-# 🎬 Projeto 01 AWS
+# 🎬 Projeto 01- AWS
 
-Este projeto apresenta conceitos fundamentais de **Computação em Nuvem com AWS** e um **Delivery de Açaí** utilizando serviços da Amazon.
+Este projeto apresenta conceitos fundamentais de **Computação em Nuvem com AWS** e um **fluxo prático para Delivery de Açaí** utilizando serviços da Amazon.
 
 ---
 
@@ -35,10 +35,9 @@ Este projeto apresenta conceitos fundamentais de **Computação em Nuvem com AWS
 
 ---
 
-## 📊 Fluxo: Compra de Ingresso de Cinema com Computação em Nuvem AWS
+## 📊 Fluxo: Delivery de Açaí com Computação em Nuvem AWS
 
-(https://github.com/mari19-coder/Projeto01CodeGirls/blob/main/aws1.drawio.png)
- 
+  ![Delivery de Açaí](https://github.com/davidkuin/Cloud-Computing-EC2/blob/3dbc71a6de102e3e5869f1e30d9a31c3d9def247/aws1.drawio.png).
 
 ---
 
@@ -46,9 +45,22 @@ Este projeto apresenta conceitos fundamentais de **Computação em Nuvem com AWS
 
 - **EC2** → processamento e lógica da aplicação.  
 - **EBS** → armazenamento das instâncias.  
-- **Load Balancer** → Para distribuir o tráfego.  
-- **RDS ** → Para um banco de dados relacional.  
+- **RDS** → Para um banco de dados relacional.  
+- **Load Balancer** → Distribui o tráfego entre múltiplas instâncias EC2.
+  
+1.**Entre Usuário e Load Balancer:**
 
-S3 → histórico de compras.
+• "Requisições HTTP/HTTPS para acessar a aplicação."
 
-S3 Glacier → arquivamento de longo prazo.
+2. **Entre Load Balancer e EC2:**
+
+• "Redireciona requisições para instâncias EC2 disponíveis."
+
+3. **Entre EC2 e EBS:**
+
+• "Leitura e gravação de dados persistentes."
+
+4. **Entre EC2 e RDS:**
+
+• "Consultas e atualizações de dados no banco de dados."
+
